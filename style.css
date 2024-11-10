@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     padding:0;
@@ -52,9 +53,28 @@ header{
 .MenuButton li{
     padding: 30px;
 }
+.MenuButton a{
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+.MenuButton a:hover{
+    color:rgb(223, 57, 84);
+    text-decoration: none;
+}
 .MenuIcon{
     display: flex;
     flex-direction: row;
+}
+.MenuIcon a{
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+.MenuIcon a:hover{
+    filter: invert(37%) sepia(95%) saturate(7481%) hue-rotate(0deg) brightness(102%) contrast(109%);
+    text-decoration: none;
 }
 .asus-head{
 
@@ -136,6 +156,15 @@ header{
    width: 90%;
    margin-left: 100px;
    
+}
+.Produit a{
+    background-color: transparent;
+    text-decoration: none;
+
+}
+.Produit a:hover{
+    filter: invert(15%) sepia(95%) saturate(5000%) hue-rotate(-10deg) brightness(60%) contrast(130%);
+    text-decoration: none;
 }
 .Produit img{
     padding: 20px;
@@ -243,7 +272,208 @@ height: 40px;
 #tel{ width: 230px;
     height: 210px;
 }
+.actu a{
+    color: #CC000E;
+    background-color: transparent;
+    text-decoration: none;
 
+}
+.actu a:hover{
+    color:rgb(223, 57, 84);
+    text-decoration: none;
+
+}
+.actu{
+    height: 1300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+    background-image: url("background/back-actualité.jpg");
+}
+.actu h2{
+    color: aliceblue;
+    font-size: 34px;
+    margin-top: 70px;
+    font-family: "Roboto Condensed", serif;
+    margin-bottom: 20px;
+}
+.container-actu{
+    height: 1150px;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first-actu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 550px;
+}
+.actu p{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.actu1{
+    width: 470px;
+    height: 540px;
+    background-image:url("https://dlcdnrog.asus.com/rog/media/1667899419115.webp");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: aliceblue;
+    font-family:"Roboto Condensed", sans-serif;
+  
+}
+.actu2{
+
+    width: 470px;
+    height: 540px;
+    background-image: url("https://dlcdnrog.asus.com/rog/media/1587083542860.webp");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: aliceblue;
+    font-family:"Roboto Condensed", sans-serif;
+}
+.first-commentaire{
+    margin-bottom: 5px;
+}
+
+.actu3{
+    width: 470px;
+    height: 540px;
+    background-image: url("https://dlcdnrog.asus.com/rog/media/1585811796926.webp");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: aliceblue;
+    font-family:"Roboto Condensed", sans-serif;
+    
+}
+
+.two-actu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.actu4{
+    width: 730px;
+    height: 400px;
+    background-image: url("https://dlcdnrog.asus.com/rog/media/1582870301198.webp");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: aliceblue;
+    font-family:"Roboto Condensed", sans-serif;
+}
+.actu5{
+    width: 730px;
+    height: 400px;
+    background-image: url("https://dlcdnrog.asus.com/rog/media/1580282300473.webp");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: aliceblue;
+    font-family:"Roboto Condensed", sans-serif;
+}
+.more-info{
+    text-align: center;
+    font-family:"Roboto Condensed", sans-serif;
+    color: #CC000E;
+}
+#img-story-footer{
+    width: 100%;
+
+}
+.all-footer{
+    background-image: url("background/footer-back.jpg");
+    height: 550px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.top-footer{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 22px;
+    margin-top: 40PX;
+}
+.two-word{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-family:"Roboto Condensed", sans-serif;
+}
+.two-word a{
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+.two-word a:hover{
+    color:rgb(223, 57, 84);
+    text-decoration: none;
+}
+.fist-word{
+    
+    width: 130px;
+}
+.second-word{
+    
+    margin-left: 25px;
+}
+.right-top-footer{
+    margin-left: 30%;
+    width: 70%;
+}
+.icon-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.icon footer a{
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+.icon-footer a:hover{
+    filter: invert(37%) sepia(95%) saturate(7481%) hue-rotate(0deg) brightness(102%) contrast(109%);
+    text-decoration: none;
+}
+#facebook{
+    height: 40px;
+    margin-right: 15px;
+}
+#X{
+    height: 40px;
+    margin-right: 15px;
+}
+#youtube{
+    height: 40px;
+    margin-right: 15px;
+}
+#insta{
+    height: 40px;
+    margin-right: 15px;
+}
+#tiktok{
+    height: 40px;
+}
+.actu img{
+    transition: transform .1s;
+}
+.actu img:hover{
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}
 @keyframes Slide-Img {
     0% { transform: translateX(0); }
     16.66% { transform: translateX(0); }

@@ -50,8 +50,43 @@ header{
     color:aliceblue;
     
 }
-.MenuButton li{
+.MenuListe ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.MenuListe li {
+    position: relative;
     padding: 30px;
+}
+.deroulant {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.deroulant a {
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    color: black !important;
+}
+
+.deroulant a:hover {
+    background-color: #ddd;
+    color:rgb(223, 57, 84) !important; /*pour forcer la couleur a ce faire */
+}
+
+
+.MenuButton li:hover .deroulant {
+    display: block;
 }
 .MenuButton a{
     color: aliceblue;
@@ -158,12 +193,13 @@ header{
    
 }
 .Produit a{
+    color: black;
     background-color: transparent;
     text-decoration: none;
 
 }
 .Produit a:hover{
-    filter: invert(15%) sepia(95%) saturate(5000%) hue-rotate(-10deg) brightness(60%) contrast(130%);
+    color:rgb(223, 57, 84);
     text-decoration: none;
 }
 .Produit img{

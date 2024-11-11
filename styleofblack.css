@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    
+}
+header{
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-header{
+    height: 40%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trois-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.first-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+     width: 35px;
+     margin-right: 15px;
+}
+#black-asus{
+    height: 20px;
+}
+.two-logo{
+    width: 60px;
+    margin-left: 15px;
+    margin-right: 15px ;
+}
+#ProArt{
+    height: 20px;
+}
+.three-logo{
+    margin-left: 15px;
+    margin-top: 2px;
+}
+#iot{
+    height: 25px;
+}
+.trois-logo .first-logo a{
+    background-color: transparent;
+    text-decoration: none;
+}
+.trois-logo .first-logo a:hover{
+    filter: invert(37%) sepia(95%) saturate(7481%) hue-rotate(0deg) brightness(102%) contrast(109%);
+    text-decoration: none;
+}
+.trois-logo .two-logo a:hover{
+    filter: sepia(100%) saturate(100%) hue-rotate(30deg) brightness(85%) contrast(110%);
+    text-decoration: none;
+}
+.trois-logo .three-logo a:hover{
+    filter: brightness(0) saturate(100%) invert(24%) sepia(94%) saturate(2073%) hue-rotate(186deg) brightness(103%) contrast(97%);
+    text-decoration: none;
+}
+.two-button{
+    display: flex;
+    flex-direction: row;
+}
+.two-button a{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.two-button a:hover{
+    color: black;
+    background-color: transparent;
+}
+.premier{
+    font-size: 16px;
+    margin-right: 10px;
+    font-family:"Roboto Condensed", sans-serif;
+}
+.deuxieme{
+    font-size: 14px;
+    font-family:"Roboto Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-header{
+    height: 60%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+}
+.logo-asus{
+    display: flex;
+    align-items: center;
+}
+#logo2{
+    height: 15px;
+}
+.other-button{
+   
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+   
+}
+.seven-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.seven-button li{
+    list-style-type: none;
+    font-size: 15px;
+    font-family:"Roboto Condensed", sans-serif;
+}
+.seven-button a{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+#seven-button-margin{
+    margin-left: 25px;
+}
+
+.five-button{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 55px;
+
+}
+.two-bouton-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.two-bouton-top li{
+    list-style-type: none;
+}
+.two-bouton-top a{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+#two-bouton-margin{
+    margin-left: 25px;
+}
+.logo-header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.first-logo{
+    margin-left: 20px;
+}
+.second-logo{
+    margin-right: 20px;
+}
+#loupe-de-recherche{
+height: 20px;
+}
+#profil{
+    height: 20px;
+}
+#panier{
+    height: 20px;
+}
+#img-under-header{
+    width: 100%;
+    height: 400px;
+}
+.menu-under-img{
+   height: 128px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.menu-under-img p{
+    font-family:"Roboto Condensed", sans-serif;
+}
+
+.menu{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-proposition
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#proposition-1img{
+    height: 50px;
+}
+
+.dealscount{
+    height: 2128px;
+    background-color: rgb(231, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-layout{
+    border: solid yellow;
+    height: 100%;
+    width: 80%;
+}
+.windows{
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.filter-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.right-filter-bar {
+    display: inline-flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #4A90E2;
+}
+
+.trier {
+    margin-right: 8px;
+    color: #3078bb;
+}
+.dropdown {
+    background-color: #E6F0FF;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    color: #4A90E2;
+    width: 120px;
+    text-align: center;
+}
+
+.dropdown::after {
+    content: '▼';
+    font-size: 12px;
+    color: #4A90E2;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #E6F0FF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+.dropdown ul li {
+    padding: 10px;
+    color: #4A90E2;
+    cursor: pointer;
+    text-align: center;
+}
+.dropdown ul li:hover {
+    background-color: #D0E3FF;
+}
+.dropdown:hover ul {
+    display: block;
+}
+.all-pc{
+    border: solid blue;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+   
+}
+.first-pc{
+    border: solid red;
+    height: 1064px;
+    width: 300px;
+    background-color: white;
+    font-family:"Roboto Condensed", sans-serif;
+    border-radius: 5%;
+}
+.Trait-beau-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.Trait-description1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.start-of-description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+#petit-i{
+    height: 20px;
+}
+.Tittle-fist-pc{
+    margin-left: 20px;
+}
+.second-pc{
+    border: solid red;
+    height: 1064px;
+    width: 300px;
+}
+#zenbook{
+    height: 290px;
+    width: 100%;
+    border-radius: 5%;
+}
+#asus-tuf{
+    height: 290px;
+    width: 100%;
+}
+.prix-first-pc{
+    margin-left: 33px;
+    font-family: "Crimson Pro", serif;
+    font-size: 16px;
+    color: #C74200;
+}
+.under-price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.under-price p {
+    color: #C74200;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.produccard{
+    font-size: 13px;
+    margin-left: 33px;
+    font-family:"Roboto Condensed", sans-serif;
+}
+#price1{
+    height: 18px;
+    margin-left: 25px;
+}
+.final-description{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.boutton-acheter{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 32px;
+}
+.achat {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 50px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #006ce1;
+    box-shadow:
+      inset 2px 2px 3px rgb(255 255 255 / 60%),
+      inset -2px -2px 3px rgb(0 0 0 / 60%);
+  }
+  
+  .achat:hover {
+    background-color: #024388;
+  }
+  
+  .achat:active {
+    box-shadow:
+      inset -2px -2px 3px rgb(255 255 255 / 60%),
+      inset 2px 2px 3px rgb(0 0 0 / 60%);
+  }
+  .ensavoirplus{
+    border: solid green;
+  }
+#space-between-logo{
+    height: 15px;
+}
+#between-header{
+    height: 0px;
+    width: 100%;
+}
+#trait-description{
+    height: 1px;
+    width: 80%;
+    background-color: grey;
+}

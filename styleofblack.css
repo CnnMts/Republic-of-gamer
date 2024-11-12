@@ -212,6 +212,11 @@ height: 20px;
 #proposition-1img{
     height: 50px;
 }
+.first-proposition p{
+    animation-name: animation-couleur;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 
 .dealscount{
     height: 100%;
@@ -460,4 +465,9 @@ height: 20px;
     height: 1px;
     width: 80%;
     background-color: grey;
+}
+@keyframes animation-couleur{
+    from {color: rgb(0, 0, 0);}
+
+    to {color: rgb(180, 83, 3);}
 }

@@ -247,6 +247,9 @@ height: 20px;
     align-items: center;
     font-size: 31px;
     margin-top: 3px;
+    animation-name: animation-couleur;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 .left-img{
     display: flex;
@@ -472,3 +475,8 @@ height: 20px;
   .add:hover {
     background-color: #0350a3;
   }
+  @keyframes animation-couleur{
+    from {color: rgb(0, 0, 0);}
+
+    to {color: rgb(243, 3, 151);}
+}

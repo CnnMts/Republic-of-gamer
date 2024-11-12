@@ -542,6 +542,24 @@ height: 40px;
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
 }
+@media (min-width: 320px) and (max-width: 720px) {
+    .all{
+        flex-direction: column;
+    }
+    header{
+        width: 100vw;
+    }
+    .MenuButton{
+        display: none;
+    }
+    .MenuIcon{
+        display: none;
+    }
+    #logo-header{
+        margin-left: 120px;
+    }
+    
+}
 
 @keyframes Slide-Img {
     0% { transform: translateX(0); }

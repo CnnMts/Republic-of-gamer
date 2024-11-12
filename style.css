@@ -356,13 +356,43 @@ height: 40px;
 .actu1{
     width: 470px;
     height: 540px;
-    background-image:url("https://dlcdnrog.asus.com/rog/media/1667899419115.webp");
+    background-image:url(logo/actu1.webp);
     display: flex;
     justify-content: center;
     align-items: flex-end;
     color: aliceblue;
     font-family:"Roboto Condensed", sans-serif;
   
+}
+ #actu1:hover{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition:1s ease-in-out;
+    transition:0.3s ease-in-out;
+}
+#actu2:hover{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition:1s ease-in-out;
+    transition:0.3s ease-in-out;
+}
+#actu3:hover{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition:1s ease-in-out;
+    transition:0.3s ease-in-out;
+}
+#actu4:hover{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition:1s ease-in-out;
+    transition:0.3s ease-in-out;
+}
+#actu5:hover{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition:1s ease-in-out;
+    transition:0.3s ease-in-out;
 }
 .actu2{
 
@@ -511,90 +541,6 @@ height: 40px;
     -ms-transform: scale(0.5);
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
-}
-
-@media (min-width: 320px) and (max-width: 720px) {
-
-    header {
-        height: 60px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .all-header {
-        width: 100%;
-        font-size: 14px;
-        padding: 5px;
-    }
-
-    .logo-rep {
-        width: 15%;
-    }
-
-    #logo-header {
-        height: 40px;
-        width: 40px;
-    }
-
-    .Produit {
-        width: 100%;
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .liste-product {
-        flex-direction: column;
-    }
-
-    .First-produit, .Second-produit, .third-produit, .fourth-produit, .five-produit {
-        width: 100%;
-    }
-
-    .Produit img {
-        width: 80%;
-        height: auto;
-    }
-
-    .actu {
-        margin-top: 20px;
-    }
-
-    .container-actu {
-        width: 100%;
-        height: auto;
-    }
-
-    .first-actu, .two-actu {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .actu1, .actu2, .actu3, .actu4, .actu5 {
-        width: 100%;
-        height: 200px;
-        background-size: cover;
-    }
-
-    .all-footer {
-        height: auto;
-        padding: 20px;
-    }
-
-    .top-footer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .two-word {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        font-size: 14px;
-    }
-
-    .icon-footer {
-        justify-content: center;
-    }
 }
 
 @keyframes Slide-Img {

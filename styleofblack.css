@@ -440,12 +440,7 @@ height: 20px;
   .achat:hover {
     background-color: #024388;
   }
-  
-  .achat:active {
-    box-shadow:
-      inset -2px -2px 3px rgb(255 255 255 / 60%),
-      inset 2px 2px 3px rgb(0 0 0 / 60%);
-  }
+
   .ensavoirplus{
     border: solid green;
   }

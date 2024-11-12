@@ -269,6 +269,9 @@ height: 20px;
 .real-desc li{
     padding-bottom: 5px;
 }
+.name{
+    width: 300px;
+}
 .firstlist{
     width: 320px;
 }
@@ -285,9 +288,10 @@ height: 20px;
     margin-right: 95px;
 }
 .mini-description{
-    margin-left: 480px;
+    margin-left: 380px;
     font-family:"Roboto 0", sans-serif;
     font-size: 15px;
+    width: 500px;
 }
 .buton-description{
     width: 100%;
@@ -313,6 +317,14 @@ height: 20px;
     height: 1px;
     width: 100%;
     color: grey;
+    background-color: transparent;
+}
+#trait-toute-la-page1{
+    height: 1px;
+    width: 100%;
+    color: grey;
+    background-color: transparent;
+    margin-top: 20px;
 }
 .parti2{
     display: flex;
@@ -380,5 +392,83 @@ height: 20px;
      bottom: 0; 
      left: 0;
     height: 123px;
-    background-color: grey;
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.produc-info-wrap{
+    width: 1236px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    font-family:"Roboto Condensed", sans-serif;
+}
+.logo-livraison{
+    width: 36px;
+    height: 100%;
+}
+#livraison{
+    width: 32px;
+}
+.tittle-livraison{
+    height: 100%;
+    width: 252px;
+    margin-left: 7px;
+}
+#text-livraison{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.tittle-retrait{
+    height: 100%;
+    width: 252px;
+    margin-left: 7px;
+}
+#retrait{
+    width: 32px;
+    margin-left: 25px;
+}
+#text-retrait{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.right-footer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.reel-price{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+#price{
+    font-size: 35px;
+    color: #C74200;
+}
+#small-text{
+    font-size: 15px;
+}
+.add {
+    border: 0;
+    line-height: 3;
+    padding: 0 50px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:  #156cc9;
+    box-shadow:
+      inset 2px 2px 3px rgb(255 255 255 / 60%),
+      inset -2px -2px 3px rgb(0 0 0 / 60%);
+  }
+  
+  .add:hover {
+    background-color: #0350a3;
+  }
